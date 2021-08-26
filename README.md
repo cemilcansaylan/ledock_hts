@@ -1,3 +1,5 @@
+'''bash
+
 Usage: ledock_hts.sh [-h, --help] [--config arg] [--workdir folder] [--task_number int] [--receptor arg] [--ligands_folder folder] 
              [--center_coord center_x center_y center_z (float)] [--box_size size_x size_y size_z (float)] 
              [--account arg] [-p, --partition arg] [--cpu int] [--ledock_path folder] [--gnu_parallel folder]
@@ -27,3 +29,4 @@ Program PATH (require)
 
 Configuration file (optional):
   --config arg          the above options can be put here 
+  '''
