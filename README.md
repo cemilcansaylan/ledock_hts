@@ -1,3 +1,8 @@
+### Requirements:
+
+ledock and lepro download: http://www.lephar.com/download.htm
+gnu parallel: https://www.gnu.org/software/parallel/
+
 ```bash
 
 Usage: ledock_hts.sh [-h, --help] [--config arg] [--workdir folder] [--task_number int] [--receptor arg] [--ligands_folder folder] 
