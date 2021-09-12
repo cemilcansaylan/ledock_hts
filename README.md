@@ -1,7 +1,8 @@
 ### Requirements:
 
-ledock and lepro download: http://www.lephar.com/download.htm
-gnu parallel: https://www.gnu.org/software/parallel/
+ledock and lepro [link](http://www.lephar.com/download.htm)
+
+gnu parallel [link](https://www.gnu.org/software/parallel/)
 
 ```bash
 
