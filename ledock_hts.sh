@@ -99,8 +99,8 @@ done
 [[ -z "$receptor" ]] && { echo "Error: receptor cannot be empty" ; exit 1; }
 [[ -z "$ligands_folder" ]] && { echo "Error: ligands_folder cannot be empty" ; exit 1; }
 [[ -z "$account" ]] && { echo "Error: account cannot be empty" ; exit 1; }
-[[ -z "$partition" ]] && { partition="core40q"; }
-[[ -z "$cpu" ]] && { cpu="40"; }
+[[ -z "$partition" ]] && { echo "Error: partition cannot be empty" ; exit 1; }
+[[ -z "$cpu" ]] && { echo "Error: cpu cannot be empty" ; exit 1; }
 [[ -z "$LEDOCK_PATH" ]] && { echo "Error: LEDOCK_PATH cannot be empty"; exit 1; }
 [[ -z "$PARALLEL_PATH" ]] && { echo "Error: PARALLEL_PATH cannot be empty"; exit 1; }
 
