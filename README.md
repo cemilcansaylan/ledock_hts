@@ -29,9 +29,9 @@ Inputs (require)
                         Grid box size, size should be giver as; size_x size_y size_z
 
 HPC inputs (require)
-  --account arg         UHEM slurm file account name
-  --partition arg       UHEM partition (default is "core40q")
-  --cpu int             # of cpu (default is "40") for one task
+  --account arg         HPC slurm file account name
+  --partition arg       HPC partition
+  --cpu int             # of cpu for one task
 
 Program PATH (require)
   --ledock_path folder  Ledock executable path
