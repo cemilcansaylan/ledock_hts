@@ -1,3 +1,7 @@
+### LedockHTS
+
+High throughput screening preparation for ledock. Design for slurm HPC, and you may change the HPC inputs
+
 ### Requirements:
 
 ledock and lepro [link](http://www.lephar.com/download.htm)
@@ -24,7 +28,7 @@ Inputs (require)
   --box_size size_x size_y size_z
                         Grid box size, size should be giver as; size_x size_y size_z
 
-UHEM HPC inputs (require)
+HPC inputs (require)
   --account arg         UHEM slurm file account name
   --partition arg       UHEM partition (default is "core40q")
   --cpu int             # of cpu (default is "40") for one task
