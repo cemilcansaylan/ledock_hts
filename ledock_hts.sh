@@ -22,7 +22,7 @@ function usage(){
     --box_size size_x size_y size_z
                           Grid box size, size should be giver as; size_x size_y size_z
 
-  UHEM HPC inputs (require)
+  HPC inputs (require)
     --account arg         Slurm file account name
     --partition arg       Partition (default is "core40q")
     --cpu int             # of cpu (default is "40") for one task
